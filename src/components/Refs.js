@@ -24,6 +24,7 @@ export default class Refs extends React.Component{
 		});
 
 		ReactDOM.findDOMNode(document.getElementById('textBox')).focus();
+		ReactDOM.findDOMNode().style.border="2px dashed green";
 	}
 
 	render(){

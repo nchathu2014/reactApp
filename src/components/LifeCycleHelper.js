@@ -3,6 +3,7 @@ import React from 'react';
 export default class LifeCycleHelper extends React.Component{
 
 	constructor(){
+		console.log("constructor");
 		super();
 		this.state={
 			name:"Nuwan"

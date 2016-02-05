@@ -13,6 +13,8 @@ import LifeCycle from './LifeCycle';
 import TwoWayData from './TwoWayData';
 import TwoWayDataComplex from './TwoWayDataComplex';
 import Refs from './Refs';
+import Animations from './Animations';
+import AnimationsAnother from './AnimationsAnother';
 
 export default class App extends React.Component{
 
@@ -33,8 +35,15 @@ export default class App extends React.Component{
 				<TwoWayData/>
 				<TwoWayDataComplex/>
 				<Refs/>
-				
-
+				<Animations/>
+				<AnimationsAnother/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
 			</div>
 		);
 	}

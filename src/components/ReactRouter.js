@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Router,Route,Link,browserHistory,IndexRoute} from 'react-router';
 
 
 export default class ReactRouter extends React.Component{
@@ -7,8 +8,11 @@ export default class ReactRouter extends React.Component{
 		return(
 			<div>
 				<ul>
-					lll
+					<Link>Home</Link>
+					<li>About</li>
+					<li>Contact</li>
 				</ul>
+				{this.props.children}
 			</div>
 		);
 	}
