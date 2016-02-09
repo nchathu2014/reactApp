@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Header from './Header';
 import Content from './Content';
@@ -15,6 +16,7 @@ import TwoWayDataComplex from './TwoWayDataComplex';
 import Refs from './Refs';
 import Animations from './Animations';
 import AnimationsAnother from './AnimationsAnother';
+import HOC from './HOC';
 
 export default class App extends React.Component{
 
@@ -37,6 +39,7 @@ export default class App extends React.Component{
 				<Refs/>
 				<Animations/>
 				<AnimationsAnother/>
+				<HOC/>
 				<br/>
 				<br/>
 				<br/>
